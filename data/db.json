@@ -1,0 +1,52 @@
+{
+  "Sujet": [
+    {
+      "matiere": "Physique",
+      "model": "Optique",
+      "id": 13
+    },
+    {
+      "matiere": "Mathématique",
+      "model": "Analyse",
+      "id": 14
+    },
+    {
+      "matiere": "Scince de la terre",
+      "model": "Biologié",
+      "id": 15
+    },
+    {
+      "matiere": "Etude Islamique",
+      "model": "Quran",
+      "id": 16
+    },
+    {
+      "matiere": "Physique",
+      "model": "Mécanique",
+      "id": 17
+    },
+    {
+      "matiere": "Physique",
+      "model": "Chimie",
+      "id": 18
+    }
+  ],
+  "Question": [
+    {
+      "Question": "Level A",
+      "Reponse": "Quel est la capitale du Maroc ?",
+      "Level": "Rabat",
+      "Max": "20",
+      "Min": "30",
+      "id": 6
+    },
+    {
+      "Question": "Level A",
+      "Reponse": "Quel est la somme de 2 + 2",
+      "Level": "4",
+      "Max": "10",
+      "Min": "15",
+      "id": 8
+    }
+  ]
+}

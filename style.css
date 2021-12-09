@@ -1,0 +1,245 @@
+.tim-row {
+    margin-bottom: 20px;
+  }
+  
+  .typography-line {
+    padding-left: 25%;
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  
+  .tim-row {
+    padding-top: 60px;
+  }
+  
+  .tim-row h3 {
+    margin-top: 0;
+  }
+  
+  .offline-doc .page-header {
+    display: flex;
+    align-items: center;
+  }
+  .form
+{
+    position: relative;
+    background: #060c21;
+    border: 1px solid #000;
+    width: 350px;
+    padding: 40px 40px 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form::before
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient(315deg,#e91e63,#5d02ff);
+    z-index: -1;
+    transform: skew(2deg,1deg);
+    border-radius: 10px;
+}
+.form h2
+{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.form .input
+{
+    margin-top: 40px;
+    text-align: left;
+}
+.form .input .inputBox
+{
+    margin-top: 10px;
+}
+.form .input .inputBox label
+{
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+::placeholder 
+{
+    color: white;
+    font-weight: smaller;
+    font-size: 10px;
+}
+.form .input .inputBox input
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    background:linear-gradient(315deg,#e91e63,#5d02ff) ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form .input .inputBox input[type="submit"]
+{
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.form .input .inputBox input[type="submit"]:hover
+{
+    background:linear-gradient(315deg,#5d02ff,#e91e63) ;
+}
+.form .input .inputBox input[type="submit"]:active
+{
+    color: rgba(255, 255, 255, 0.521);
+    background:linear-gradient(315deg,#e91e6271,#5f02ff8c) ;
+}
+
+  @media all and (min-width: 992px) {
+    .sidebar .nav>li.active-pro {
+      position: absolute;
+      width: 100%;
+      bottom: 10px;
+    }
+  }
+  
+  .card.card-upgrade .card-category {
+    max-width: 530px;
+    margin: 0 auto;
+  }
+  
+  /* Nucleo Style */
+  
+  .demo-iconshtml {
+    font-size: 62.5%;
+  }
+  
+  .demo-icons body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #333333;
+    background: white;
+  }
+  
+  .demo-icons a {
+    color: #608CEE;
+    text-decoration: none;
+  }
+  
+  .demo-icons header {
+    text-align: center;
+    padding: 100px 0 0;
+  }
+  
+  .demo-icons header h1 {
+    font-size: 2.8rem;
+  }
+  
+  .demo-icons header p {
+    font-size: 1.4rem;
+    margin-top: 1em;
+  }
+  
+  .demo-icons header a:hover {
+    text-decoration: underline;
+  }
+  
+  .demo-icons .nc-icon {
+    font-size: 34px;
+  }
+  
+  .demo-icons section h2 {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 0 1em .2em;
+    margin-bottom: 1em;
+  }
+  
+  .demo-icons ul {
+    padding-left: 0;
+  }
+  
+  .demo-icons ul::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .demo-icons ul li {
+    width: 20%;
+    float: left;
+    padding: 16px 0;
+    text-align: center;
+    border-radius: .25em;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+  }
+  
+  .demo-icons ul li:hover {
+    background: #f4f4f4;
+  }
+  
+  .demo-icons ul p,
+  .demo-icons ul em,
+  .demo-icons ul input {
+    display: inline-block;
+    font-size: 1rem;
+    color: #999999;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  
+  .demo-icons ul p {
+    padding: 20px 0 0;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .demo-icons ul p::selection,
+  .demo-icons ul em::selection {
+    background: #608CEE;
+    color: #efefef;
+  }
+  
+  .demo-icons ul em {
+    font-size: 12px;
+  }
+  
+  .demo-icons ul em::before {
+    content: '[';
+  }
+  
+  .demo-icons ul em::after {
+    content: ']';
+  }
+  
+  .demo-icons ul input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    display: none;
+  }
